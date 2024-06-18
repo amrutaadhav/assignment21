@@ -61,11 +61,13 @@
         width: 30%;
     }
     .stamp{
+        
         width: 120px;
         position: absolute;
-        right: 175px;
-       top: 555px;
+        right: 150px;
+       top: 560px;
         transform: rotate(-30deg);
+        
      }
     .accountant-signsture{
         text-align:right;
@@ -79,14 +81,26 @@
         font-size: 20px;
         background-color: #39e5ff;
     }
+
+
      /* small Device */
-     @media screen and (max-width: 600px){
-           }
+     @media screen and (max-width: 600px)
+     {
+           
            .width{
                width: 300px;
                margin-left: 100px;
                margin-top: 50px;
             }
+            .stamp{
+                width: 50px;
+                right:100px;
+                top:680px;
+            }
+    
+     }
+            
+            
          /* Normal Device */
      @media screen and (min-width: 601px) and (max-width: 981px)
      {
@@ -94,7 +108,16 @@
             width:100px;
             margin: 10px 20px;
             }
+            .stamp{
+                width:100px;
+                right:120px ;
+                top:580px;
+            }
          }
+        
+    
+            
+         
         /* Large Device */
 @media screen and (min-width:981.33px) and (max-width:1000px) {
     .width{
@@ -102,9 +125,19 @@
         margin-left: 100px;
         margin-top: 150px;
        }
-       .stam{
-        width: 100px;
-       }
+       .stamp{
+        
+        width: 120px;
+        position: absolute;
+        right: 150px;
+       top: 560px;
+        transform: rotate(-30deg);
+        
+     }
+       
+}
+
+       
  }
  </style>
 </head>
